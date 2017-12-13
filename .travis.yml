@@ -12,7 +12,7 @@ branches:
   only:
     - master
 notifications:
-    email: false
+    email: true
     irc:
         channels:
             - "chat.freenode.net#projectci"
